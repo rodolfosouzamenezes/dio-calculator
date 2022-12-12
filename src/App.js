@@ -104,7 +104,7 @@ const App = () => {
           <Button label="*" onClick={handleMultiplyNumbers} />
           <Button label="/" onClick={handleDivideNumbers} />
           <Button label="c" onClick={handleOnClear} />
-          <Button label="." />
+          <Button label="." onClick={() => handleAddNumber('.')} />
         </Row>
         <Row>
           <Button label="7" onClick={() => handleAddNumber('7')} />
